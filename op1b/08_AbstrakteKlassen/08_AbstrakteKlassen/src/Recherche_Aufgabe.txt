@@ -1,0 +1,19 @@
+Recherchiert zu folgenden Themen:
+
+1. Polymorphie
+- Was beschreibt dieses Wort?
+- Haben wir das schon gesehen?
+
+2. Was ist das Liskovsche Substitutionsprinzip?
+- Was beschreibt das Konzept?
+- Wo haben wir das schonmal gesehen?
+
+3. Was sagt Vererbung zur Beziehung zwischen der Oberklasse und Unterklasse aus?
+
+4. Was sind Abstrakte Klassen?
+- Wie werden sie geschrieben?
+- Was können sie?
+- Was kann mit abstrakten Klassen NICHT gemacht werden?
+- Was kann NUR mit abstrakten Klassen gemacht werden?
+
+5. Wie kann ich herausfinden von welcher Klasse mein Objekt ist?

@@ -1,0 +1,22 @@
+/* Level 2
+    Schreiben Sie bitte ein Java Programm, in dem ...
+	- das Enum Ihk eingeführt wird (für die Noten SehrGut = 92, Gut = 81, Befriedigend = 67, Ausreichend = 50, Mangelhaft = 30, Ungenügend = 0)
+	- vom User in einer Schleife eine Punktzahl abgefragt wird
+        (die Schleife wird - ohne Fehlermeldung - wiederholt, falls Eingabe nicht zwischen 0 und 100, oder ein anderer Fehler geschah)
+    - nach der Schleife wird der Name des entsprechenden Enum-Wertes ausgegeben
+        (also SehrGut bei Eingaben zwischen 100 und 92
+                  Gut bei Eingaben von 81 bis 91
+                  ... )
+
+    2 Hinweise:
+    - Versuchen Sie bitte den letzten Punkt mit einer foreach-Schleife zu lösen
+    - Das ganze geschieht natürlich aus Trainingsgründen ... Problem: SehrGut statt "Sehr Gut"
+      Man würde hier also normalerweise eher ein string-Array in Betracht ziehen
+ */
+
+
+
+
+
+
+

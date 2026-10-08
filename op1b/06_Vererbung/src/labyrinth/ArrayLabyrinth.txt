@@ -1,0 +1,44 @@
+Rettungsmission im Array-Labyrinth
+
+Hintergrundgeschichte: Du bist ein Abenteurer in einer digitalen Welt und musst einen verlorenen Schatz
+aus einem mehrdimensionalen Array-Labyrinth bergen.
+Auf deinem Weg durch das Labyrinth triffst du auf verschiedene Herausforderungen,
+die du mithilfe von Klassen, Collections und dem Umgang mit Exceptions meistern musst.
+
+Aufgabenstellung:
+
+    Erstelle eine Klasse Labyrinth.
+        Diese Klasse enthält ein mehrdimensionales Array (int[][]), das das Labyrinth darstellt.
+        Jede Zelle im Array kann entweder frei (0) oder blockiert (1) sein.
+        Implementiere eine Methode generateLabyrinth(int rows, int cols), die ein zufälliges Labyrinth generiert.
+
+    Erstelle eine Klasse Abenteurer.
+        Diese Klasse hat Attribute wie name, position (ein eindimensionales Array mit zwei Elementen für die x- und y-Koordinaten) und
+        inventory (eine Collection, z.B. ArrayList<String>, um gefundene Schätze zu speichern).
+
+    Bewege den Abenteurer durch das Labyrinth.
+        Implementiere Methoden in der Klasse Labyrinth, die den virtuellen Abenteurer bewegen
+        (moveUp(), moveDown(), moveLeft(), moveRight()).
+        Jede Bewegung sollte überprüfen, ob die neue Position innerhalb der Grenzen des Labyrinths liegt und nicht blockiert ist.
+        Falls doch, wirf eine Exception BewegungNichtMoeglichException.
+
+    Finde Schätze.
+        Verteile zufällig einige Schätze im Labyrinth (z.B. an bestimmten Positionen im Array).
+        Implementiere eine Methode findeSchatz(), die überprüft, ob an der aktuellen Position des
+        Abenteurers ein Schatz liegt, und falls ja, diesen dem inventory hinzufügt.
+
+    Sammle alle Schätze und finde den Ausgang.
+        Das Ziel ist es, alle Schätze zu sammeln und den Ausgang des Labyrinths
+        (eine spezielle Position im Array) zu erreichen.
+        Implementiere eine Methode istAusgangErreicht(), die überprüft,
+        ob der Abenteurer den Ausgang erreicht hat.
+
+Bonusaufgabe:
+
+    Implementiere eine Methode druckeLabyrinth(), die das Labyrinth in der Konsole ausgibt und
+    die Position des Abenteurers sowie die Schätze anzeigt.
+
+Hinweis: Achte darauf, dass alle Methoden, die eine Exception werfen könnten,
+entsprechend (mit try-catch-Blöcken) behandelt werden, um ein reibungsloses Spielerlebnis zu gewährleisten.
+
+Viel Spaß beim Programmieren und Entdecken des Schatzes im Array-Labyrinth! 🏆

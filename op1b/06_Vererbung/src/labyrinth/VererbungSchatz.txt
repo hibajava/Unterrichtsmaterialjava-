@@ -1,0 +1,35 @@
+Aufgabenstellung: Schatzsystem im Labyrinth
+
+Hintergrund: Du bist ein Abenteurer in einer digitalen Welt und musst einen verlorenen
+Schatz aus einem Array-Labyrinth bergen.
+Auf deinem Weg findest du verschiedene Schätze, die dir helfen.
+
+** Ziel: Implementiere ein Schatzsystem mit unterschiedlichen Effekten auf den Abenteurer.
+
+** Aufgaben:
+
+Basisklasse Schatz:
+Erstelle eine (abstrakte) Klasse Schatz mit den Attributen x und y für die Position und name für die Bezeichnung.
+Definiere eine (abstrakte) Methode anwenden(Abenteurer abenteurer).
+
+Spezifische Schatzarten:
+Goldschatz: Attribut wert, das den Goldwert angibt.
+    Außerdem ein Juwel, welches von Goldschatz erbt.
+Karte: Attribut karte, das das Labyrinth um den Abenteurer für einen Zug aufdeckt.
+
+Integration ins Labyrinth:
+Passe die Klasse Labyrinth an, um Schätze zu unterstützen.
+Implementiere findeSchatz(), um Schätze an der aktuellen Position des Abenteurers zu finden.
+
+Interaktives Spiel:
+Erlaube es, den Abenteurer mit W, A, S, D zu steuern.
+Zeige nach jeder Bewegung den Labyrinth-Zustand und das Inventar an.
+
+---
+
+Bonusaufgabe:
+Neue Schatzart: Füge einen Schatz hinzu, der eine besondere Fähigkeit freischaltet.
+Implementiere die Logik zur Nutzung dieser Fähigkeit.
+
+Hinweis:
+Verwende try-catch-Blöcke, um Ausnahmen zu behandeln und ein reibungsloses Spielerlebnis zu gewährleisten.

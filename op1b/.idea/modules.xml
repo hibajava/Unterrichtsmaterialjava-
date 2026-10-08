@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_Wiederholungen_zu_OP1a/01_Wiederholungen_zu_OP1a.iml" filepath="$PROJECT_DIR$/01_Wiederholungen_zu_OP1a/01_Wiederholungen_zu_OP1a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Enums/02_Enums.iml" filepath="$PROJECT_DIR$/02_Enums/02_Enums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_Vertiefung/03_Vertiefung.iml" filepath="$PROJECT_DIR$/03_Vertiefung/03_Vertiefung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_Assoziationen/04_Assoziationen.iml" filepath="$PROJECT_DIR$/04_Assoziationen/04_Assoziationen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_Komposition/05_Komposition.iml" filepath="$PROJECT_DIR$/05_Komposition/05_Komposition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_Vererbung/06_Vererbung.iml" filepath="$PROJECT_DIR$/06_Vererbung/06_Vererbung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/op1b.iml" filepath="$PROJECT_DIR$/op1b.iml" />
+    </modules>
+  </component>
+</project>

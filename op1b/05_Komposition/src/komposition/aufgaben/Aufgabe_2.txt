@@ -1,0 +1,3 @@
+/*
+ * Ändern Sie die Muster-Lösung zur Aufgabe 7 (Artikel, WarenkorbItem, Warenkorb) so ab, dass die Komposition zwischen Warenkorb und WarenkorbItem gewährleistet wird.
+*/

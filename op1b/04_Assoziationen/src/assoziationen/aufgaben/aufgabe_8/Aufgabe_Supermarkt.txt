@@ -1,0 +1,34 @@
+/* level 3
+    Projekt Supermarkt
+
+    In einem Supermarkt kaufen täglich zwischen 500 und 1000 Kunden ein.
+    Es gibt 3 Arten von Kunden
+    - Normaler Kunde
+    - Mitarbeiter (kriegt einen Rabatt von 20% auf jeden Artikel)
+    - Dieb (generiert negativen Umsatz für die Artikel, die er klaut)
+
+    Welcher Kunde den Laden betritt und was er kauft ist Zufall (gewichtet)
+    - Normaler Kunde (85%)
+    - Mitarbeiter (10%)
+    - Diebe (5%)
+
+    Jeder Kunde hat eine Einkaufsliste mit Waren, die es im Supermarkt gibt.
+    Auf der Liste stehen zufällige Produkte aus dem gesamten Sortiment in
+    zufälliger Anzahl (zwischen 7 und 25 Artikel)
+
+    Am Ende des Tages will der Filial-Leiter folgende Auswertungen sehen:
+
+    - Gesamt-Umsatz (inklusive Teil-Umsätze durch normalen Kunde, MA und Diebe)
+    - Die Top-10-Artikel (Welche Artikel wurden am meisten gekauft?)
+    - Die Flop-10-Artikel (Welche Artikel wurden am wenigsten gekauft?)
+    - Gesamt-Anzahl Kunden (aufgeteilt nach normalen Kunden, MA und Dieben)
+
+    Anforderungen:
+    - Arbeitet mit Listen und Maps (es kann gut sein, dass Euch eine Map hilft)
+    - Arbeitet mit Klassen und Vererbung
+
+
+    Vereinfachungen:
+    1. Es sind IMMER ALLE Artikel verfügbar (keine Regale, kein Lager)
+    2. Betrachtet wird nur ein einzelner Tag (alle Ergebnisse beziehen sich nur darauf)
+*/
